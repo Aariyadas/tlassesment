@@ -1,0 +1,30 @@
+.menu {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu__brand {
+    flex-grow: 1;
+    text-align: left; 
+  }
+  
+  .menu__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu__item {
+    margin: 0 1rem;
+  }
+  
+  .menu__link {
+    color: white;
+    text-decoration: none;
+  }
+  
